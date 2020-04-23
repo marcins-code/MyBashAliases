@@ -20,10 +20,12 @@ alias scawa=" php bin/console debug:autowiring --all"
 alias scdr=" php bin/console debug:route"
 alias sst="symfony server:start"
 alias scmke="php bin/console make:entity" 
-alias scmkmg="php bin/console make:migration" 
+alias scmkmg="php bin/console make:migration"
+alias scdmm="php bin/console doctrine:migrations:migrate" 
 alias scmkct="php bin/console make:controller" 
 alias scmkcr="php bin/console make:crud" 
 alias scmkfr="php bin/console make:form" 
+alias sccc="php bin/console cache:clear" 
 
 
 #GIT
@@ -38,4 +40,5 @@ alias gmerge="git merge"
 alias gps="git push"
 alias gft="git fetch"
 alias gpl="git pull"
+alias grs="git reset" 
 ```
